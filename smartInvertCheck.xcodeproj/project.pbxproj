@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6A344C72D760D5800957025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344BD2D760D5800957025 /* Constants.swift */; };
+		F6A344C82D760D5800957025 /* OSCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344BE2D760D5800957025 /* OSCheck.swift */; };
+		F6A344CA2D760D5800957025 /* TestStatus + Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C02D760D5800957025 /* TestStatus + Enum.swift */; };
+		F6A344CB2D760D5800957025 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C22D760D5800957025 /* String + Extension.swift */; };
+		F6A344CC2D760D5800957025 /* testMethods + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C32D760D5800957025 /* testMethods + Extension.swift */; };
+		F6A344CD2D760D5800957025 /* XCUIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C42D760D5800957025 /* XCUIApplication + Extension.swift */; };
+		F6A344CE2D760D5800957025 /* XCUIElement + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C52D760D5800957025 /* XCUIElement + Extension.swift */; };
+		F6A344D02D77119600957025 /* smartInvertCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344CF2D77119600957025 /* smartInvertCheckUITests.swift */; };
+		F6A344D12D7711C700957025 /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C22D760D5800957025 /* String + Extension.swift */; };
+		F6A344D22D7711CA00957025 /* XCUIApplication + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C42D760D5800957025 /* XCUIApplication + Extension.swift */; };
+		F6A344D32D7711CD00957025 /* testMethods + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C32D760D5800957025 /* testMethods + Extension.swift */; };
+		F6A344D42D7711D000957025 /* XCUIElement + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C52D760D5800957025 /* XCUIElement + Extension.swift */; };
+		F6A344D52D7711D200957025 /* OSCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344BE2D760D5800957025 /* OSCheck.swift */; };
+		F6A344D62D7711D500957025 /* TestStatus + Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344C02D760D5800957025 /* TestStatus + Enum.swift */; };
+		F6A344D72D7711D700957025 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A344BD2D760D5800957025 /* Constants.swift */; };
 		F6BB4AAC2D7199A4007AB323 /* smartInvertCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB4AAB2D7199A4007AB323 /* smartInvertCheckApp.swift */; };
 		F6BB4AAE2D7199A4007AB323 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB4AAD2D7199A4007AB323 /* ContentView.swift */; };
 		F6BB4AB02D7199A7007AB323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BB4AAF2D7199A7007AB323 /* Assets.xcassets */; };
 		F6BB4AB32D7199A7007AB323 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6BB4AB22D7199A7007AB323 /* Preview Assets.xcassets */; };
-		F6BB4ABD2D7199A8007AB323 /* smartInvertCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB4ABC2D7199A8007AB323 /* smartInvertCheckTests.swift */; };
-		F6BB4AC72D7199A8007AB323 /* smartInvertCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB4AC62D7199A8007AB323 /* smartInvertCheckUITests.swift */; };
-		F6BB4AC92D7199A8007AB323 /* smartInvertCheckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BB4AC82D7199A8007AB323 /* smartInvertCheckUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6A344BD2D760D5800957025 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F6A344BE2D760D5800957025 /* OSCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCheck.swift; sourceTree = "<group>"; };
+		F6A344C02D760D5800957025 /* TestStatus + Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TestStatus + Enum.swift"; sourceTree = "<group>"; };
+		F6A344C22D760D5800957025 /* String + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		F6A344C32D760D5800957025 /* testMethods + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "testMethods + Extension.swift"; sourceTree = "<group>"; };
+		F6A344C42D760D5800957025 /* XCUIApplication + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIApplication + Extension.swift"; sourceTree = "<group>"; };
+		F6A344C52D760D5800957025 /* XCUIElement + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCUIElement + Extension.swift"; sourceTree = "<group>"; };
+		F6A344CF2D77119600957025 /* smartInvertCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartInvertCheckUITests.swift; sourceTree = "<group>"; };
 		F6BB4AA82D7199A4007AB323 /* smartInvertCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartInvertCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6BB4AAB2D7199A4007AB323 /* smartInvertCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartInvertCheckApp.swift; sourceTree = "<group>"; };
 		F6BB4AAD2D7199A4007AB323 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6BB4AAF2D7199A7007AB323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6BB4AB22D7199A7007AB323 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6BB4AB82D7199A8007AB323 /* smartInvertCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartInvertCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6BB4ABC2D7199A8007AB323 /* smartInvertCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartInvertCheckTests.swift; sourceTree = "<group>"; };
 		F6BB4AC22D7199A8007AB323 /* smartInvertCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartInvertCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6BB4AC62D7199A8007AB323 /* smartInvertCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartInvertCheckUITests.swift; sourceTree = "<group>"; };
-		F6BB4AC82D7199A8007AB323 /* smartInvertCheckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smartInvertCheckUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +88,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F6A344C12D760D5800957025 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6A344BD2D760D5800957025 /* Constants.swift */,
+				F6A344BE2D760D5800957025 /* OSCheck.swift */,
+				F6A344C02D760D5800957025 /* TestStatus + Enum.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F6A344C62D760D5800957025 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6A344C22D760D5800957025 /* String + Extension.swift */,
+				F6A344C32D760D5800957025 /* testMethods + Extension.swift */,
+				F6A344C42D760D5800957025 /* XCUIApplication + Extension.swift */,
+				F6A344C52D760D5800957025 /* XCUIElement + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F6BB4A9F2D7199A3007AB323 = {
 			isa = PBXGroup;
 			children = (
 				F6BB4AAA2D7199A4007AB323 /* smartInvertCheck */,
 				F6BB4ABB2D7199A8007AB323 /* smartInvertCheckTests */,
-				F6BB4AC52D7199A8007AB323 /* smartInvertCheckUITests */,
 				F6BB4AA92D7199A4007AB323 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,18 +150,11 @@
 		F6BB4ABB2D7199A8007AB323 /* smartInvertCheckTests */ = {
 			isa = PBXGroup;
 			children = (
-				F6BB4ABC2D7199A8007AB323 /* smartInvertCheckTests.swift */,
+				F6A344CF2D77119600957025 /* smartInvertCheckUITests.swift */,
+				F6A344C62D760D5800957025 /* Extensions */,
+				F6A344C12D760D5800957025 /* Utils */,
 			);
 			path = smartInvertCheckTests;
-			sourceTree = "<group>";
-		};
-		F6BB4AC52D7199A8007AB323 /* smartInvertCheckUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F6BB4AC62D7199A8007AB323 /* smartInvertCheckUITests.swift */,
-				F6BB4AC82D7199A8007AB323 /* smartInvertCheckUITestsLaunchTests.swift */,
-			);
-			path = smartInvertCheckUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +232,7 @@
 					};
 					F6BB4AC12D7199A8007AB323 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = F6BB4AA72D7199A4007AB323;
 					};
 				};
@@ -266,7 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BB4ABD2D7199A8007AB323 /* smartInvertCheckTests.swift in Sources */,
+				F6A344CA2D760D5800957025 /* TestStatus + Enum.swift in Sources */,
+				F6A344CB2D760D5800957025 /* String + Extension.swift in Sources */,
+				F6A344CE2D760D5800957025 /* XCUIElement + Extension.swift in Sources */,
+				F6A344CD2D760D5800957025 /* XCUIApplication + Extension.swift in Sources */,
+				F6A344CC2D760D5800957025 /* testMethods + Extension.swift in Sources */,
+				F6A344C72D760D5800957025 /* Constants.swift in Sources */,
+				F6A344C82D760D5800957025 /* OSCheck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BB4AC72D7199A8007AB323 /* smartInvertCheckUITests.swift in Sources */,
-				F6BB4AC92D7199A8007AB323 /* smartInvertCheckUITestsLaunchTests.swift in Sources */,
+				F6A344D32D7711CD00957025 /* testMethods + Extension.swift in Sources */,
+				F6A344D12D7711C700957025 /* String + Extension.swift in Sources */,
+				F6A344D52D7711D200957025 /* OSCheck.swift in Sources */,
+				F6A344D22D7711CA00957025 /* XCUIApplication + Extension.swift in Sources */,
+				F6A344D02D77119600957025 /* smartInvertCheckUITests.swift in Sources */,
+				F6A344D62D7711D500957025 /* TestStatus + Enum.swift in Sources */,
+				F6A344D42D7711D000957025 /* XCUIElement + Extension.swift in Sources */,
+				F6A344D72D7711D700957025 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +462,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"smartInvertCheck/Preview Content\"";
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -430,6 +476,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +484,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -448,10 +497,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"smartInvertCheck/Preview Content\"";
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,6 +511,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +519,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,14 +532,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheckTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -497,14 +557,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheckTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -516,14 +581,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = smartInvertCheck;
@@ -534,13 +607,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = CV7F23ZDPU;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8WH83DMLCD;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lambdatest.smartInvertCheckUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Mobile Team PP";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
